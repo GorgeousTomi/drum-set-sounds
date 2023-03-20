@@ -28,5 +28,26 @@ body{
 
 .details-box .down-arrow{
     color: black;
-    /* font-size: 30px; */
+}
+
+main .drum-set{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.drum-set .drum-box{
+    width: 200px;
+    height: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* border: 1px solid darkblue; */
+    cursor: pointer;
+}
+
+.drum-set .drum-box:hover{
+    box-shadow: 2px 2px 3px brown;
 }
