@@ -28,29 +28,37 @@
 
     </div>
 
-    <main class="mt-5 container border">
-        <h4 class="text-center my-5 pb-5">You have not tapped on a drum Yet</h4>
+    <main class="my-5 container border">
+        <h4 class="text-center my-5 pb-5 tracking-text">You have not tapped on a drum Yet</h4>
 
         <div class="drum-set">
-
-            <div class="drum-box" style="background-image: url('./Images/crash.jpeg');" onclick="playSound('crash')"></div>
-            <div class="drum-box" style="background-image: url('./Images/Tom\ 1\ drum.jpeg');" onclick="playSound('tom1')"></div>
-            <div class="drum-box" style="background-image: url('./Images/Tom\ 2.png');" onclick="playSound('tom2')"></div>
-            <div class="drum-box" style="background-image: url('./Images/Tom\ 3.png');" onclick="playSound('tom3')"></div>
-
-
-            <!-- <map name="DrumMap">
-                <area class='border' shape="circle" coords="600,500,300" href="https://tomsinerinle.up.railway.app" alt="">
-            </map>
-            <img src="drumImage.jpg"  id="drumImage" usemap="#DrumMap" alt="" srcset="" width="100%" height="500px"> -->
+            <div class="overlay">
+                <div class="drum-box" style="background-image: url('./Images/crash.png');" onclick="playSound('crash')"> <span class="name">Crash</span> </div>
+            </div>
+            <div class="overlay">
+                <div class="drum-box" style="background-image: url('./Images/Tom\ 1\ drum.png');" onclick="playSound('tom1')"> <span class="name">Tom</span> </div>
+            </div>
+            <div class="overlay">
+                <div class="drum-box" style="background-image: url('./Images/Tom\ 2.png');" onclick="playSound('tom2')"><span class="name">Tom</span></div>
+            </div>
+           <div class="overlay">
+                <div class="drum-box" style="background-image: url('./Images/Tom\ 3.png');" onclick="playSound('tom3')"><span class="name">Tom</span></div>
+           </div>
+    
         </div>
 
 
         <div class="drum-set">
-
-            <div class="drum-box" style="background-image: url('./Images/snare\ drum.jpeg');" onclick="playSound('snare')"></div>
-            <div class="drum-box" style="background-image: url('./Images/kick-bass.png');" onclick="playSound('kick-bass')"></div>
-            <div class="drum-box" style="background-image: url('./Images/Tom\ 4.png');" onclick="playSound('tom4')"></div>
+            <div class="overlay">
+                <div class="drum-box" style="background-image: url('./Images/snare\ drum.png');" onclick="playSound('snare')"><span class="name">Snare</span></div>
+            </div>
+            <div class="overlay">
+                <div class="drum-box" style="background-image: url('./Images/kick-bass.png');" onclick="playSound('kick-bass')"><span class="name">Kick-bass</span></div>
+            </div>
+           <div class="overlay">
+                <div class="drum-box" style="background-image: url('./Images/Tom\ 4.png');" onclick="playSound('tom4')"><span class="name">Tom</span></div>
+           </div>
+           
 
         </div>
 
@@ -60,5 +68,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
 
+    <footer class="py-1">
+        <p class="text-center text-white mt-2">This was built by <a href="https://tomisinerinle.up.railway.app" class="fw-bold text-white text-decoration-none">Erinle Tomisin</a></p>
+    </footer>
 </body>
 </html>
