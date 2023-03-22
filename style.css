@@ -30,6 +30,10 @@ body{
     color: black;
 }
 
+main #drumImage{
+    margin-top: 100px;
+}
+
 main .drum-set{
     display: flex;
     justify-content: space-around;
@@ -61,7 +65,7 @@ main .drum-set{
     font-weight: bold;
 }
 
-.drum-set .drum-box:hover{
+.drum-pressed{
     box-shadow: 2px 2px 15px black;
 }
 
