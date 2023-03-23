@@ -1,2 +1,3 @@
 *.js linguist-detectable=true
-drum-set-sounds linguist-generated=true
+*.css linguist-detectable=true
+*.html linguist-detectable=false
